@@ -322,9 +322,6 @@ body, html {
 
 @media only screen and (max-width: 700px) {
 
-
-  #short-write-inner h4 {}
-
   .row-box {
     flex-direction: column;
     width: 350px;
