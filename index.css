@@ -281,6 +281,13 @@ body, html {
   .page-id-9315 .row-box-img {
     width: 300px;
     height: 350px;
+    position: relative;
+  }
+
+  .page-id-9315 .fixed-number {
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 
   .page-id-9315 .row-box-img img {
@@ -374,4 +381,38 @@ body, html {
   .page-id-9315 .row-box {
     width: 100%;
   }
+}
+
+.box-bottom::before {
+  transform: translateZ(-1px);
+  width: 80px;
+  height: 80px;
+  margin-left: -50px;
+  margin-top: -50px;
+  background: #D6A53F;
+  content: '';
+  display: inline-block;
+}
+
+.box-bottom {
+  margin-bottom: 40px;
+  width: fit-content;
+  padding: 40px;
+  box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-bottom::after {
+  transform: translateZ(-1px);
+  position: absolute;
+  border-radius: 50%;
+  bottom: -50px;
+  right: -50px;
+  width: 100px;
+  height: 100px;
+  background: #D6A53F;
+  content: '';
+  display: inline-block;
 }
