@@ -190,7 +190,6 @@ body, html {
 }
 
 .page-id-9315 #final-section {
-  display: none !important;
   position: absolute;
   min-height: 70vh;
   width: 100%;
@@ -224,6 +223,11 @@ body, html {
 
 .page-id-9315 .custom-shape-divider-top-1662649971 .shape-fill {
   fill: #FAF9F9;
+}
+
+.page-id-9315 #last-element {
+  padding: 10px !important;
+  font-size: 2em !important;
 }
 
 @media only screen and (max-width: 1500px) {
